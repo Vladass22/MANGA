@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>ИНТЕГРАЦИЯ В АУДИОСЕРИАЛ MANGA</title>
+	<meta name="description" content="ПРОГНОЗ ПРОСЛУШИВАНИЙ: 3 500 000+ Молодая и активная, платежеспособная аудитория.">
+	<meta name="viewport" content="width=device-width">
+
+    <link rel="icon" href="favicon/favicon.ico">
+	<link rel="icon" type="image/png" href="favicon/favicon.png">
+	
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="block-1">
+	<header>
+		<div class="wrp">
+			<div class="head">
+				<div class="head_left">
+					<a href="/">
+						<img src="img/logo.svg">
+					</a>
+				</div>
+				<div class="head_right">
+					<div class="head_right_menu">
+						<a href="#">
+							<img src="img/litres.svg">
+						</a>
+						<a href="#">
+							<img src="img/storytel.svg">
+						</a>
+						<a href="#">
+							<img src="img/podcast.svg">
+						</a>
+					</div>
+					<div class="head_right_lang">
+						<a href="en/index.html">ENG</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="block-1_down">
+		<div class="wrp">
+			<div class="block-1_down_l">
+				<h1>ИнТЕГРАЦИЯ В АУДИОСЕРИАЛ</h1>
+				<div class="block-1_down_l_ttl">
+					<span class="blue">M</span>
+					<span class="orange">A</span>
+					<span class="red">N</span>
+					<span class="green">G</span>
+					<span class="black">A</span>
+				</div>
+				<div class="block-1_down_l_tg">
+					<div>Чтобы получить доступ к полной версии аудиосериала, перейдите в наш телеграм-бот</div>
+					<a href="https://t.me/manga_online_bot" target="_blank">
+						<img src="img/tg.svg">
+						<span>Открыть</span>
+					</a>
+				</div>
+			</div>
+			<div class="block-1_down_r">
+				<div class="block-1_down_r_bl">
+					<div class="block-1_down_r_bl_ttl">Прогноз прослушиваний:</div>
+					<div class="block-1_down_r_bl_num">
+						3 500 000+ <img src="img/1.svg">
+					</div>
+				</div>
+				<div class="block-1_down_r_bl">
+					<div class="block-1_down_r_bl_ttl">Аудитория проекта:</div>
+					<div class="block-1_down_r_bl_num">
+						18+ <span>Молодая и активная, платежеспособная аудитория, интересующаяся финансами, криптовалютой, играми</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block-1_down-logo">
+		<div class="wrp">
+			<div class="block-1_down-logo_l">
+				<img src="img/meta.svg">
+				<img src="img/amazon.svg">
+				<img src="img/netflix.svg">
+				<img src="img/google.svg">
+				<img src="img/apple.svg">
+			</div>
+			<div class="block-1_down-logo_r">
+				<img src="img/tell.png">
+			</div>
+		</div>
+	</div>
+</section>
+<section class="block-2">
+	<div class="wrp">
+		<div class="block-2_l">
+			<h2>Об Аудиосериале</h2>
+			<span>Точка бифуркации реальности:</span>
+			<p>Осень 2008. Финансовый кризис. Доверия банкам больше нет. Но самые могущественные, одаренные и прогрессивные поняли это раньше. По инициативе Сергея Брина произошло слияние крупнейших корпораций: Meta, Amazon, Netflix, Google, Apple. Так родилась метакорпорация M.A.N.G. A.</p>
+			<span>Изначальная цель:</span>
+			<p>Создание цифровой финансовой системы, способной противостоять нестабильной доминирующей.</p>
+			<span>Результат:</span>
+			<p>Наращивание влияния, проникновение во все сферы управления государствами цивилизованного мира, попытка контролировать рынок криптовалют, прогресс в сфере ай-ти технологий. Мир стоит на пороге диктатуры нового формата, где каждый вдох под контролем.</p>
+			<p>Но любое действие рождает противодействие. Не весь мир готов войти в цифровой рай, усмотрев в нем признаки антиутопии. Однако тот, у кого в руках власть, всегда сильнее. Все меньше желающих рисковать ради призрачной свободы.</p>
+			<p>И однажды семена проклюнутся, падет завеса иллюзий и мир содрогнется…</p>
+		</div>
+		<div class="block-2_r">
+			<div class="block-2_r_music">
+				<div class="block-2_r_music_ttl">Саундтрек аудиоСериала</div>
+				<div class="block-2_r_music_bar">
+					<button class="slowDown">
+						<img src="img/prev.svg">
+					</button>
+					<button class="play-btn">
+						<img src="img/play.svg">
+					</button>
+					<audio id="audioPlayer">
+					    <source src="sound/m2.mp3" type="audio/mp3">
+					</audio>
+					<button class="speedUp">
+						<img src="img/next.svg">
+					</button>
+				</div>
+			</div>
+			<div class="block-2_r_list">
+				<div class="block-2_r_list_bl">
+					<div>Продюсеры:</div>
+					<span>Вячеслав Носко, Максим Бурков</span>
+				</div>
+				<div class="block-2_r_list_bl">
+					<div>Автор:</div>
+					<span>Олег Бард</span>
+				</div>
+				<div class="block-2_r_list_bl">
+					<div>Чтец:</div>
+					<span>Влад Римский</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="block-3">
+	<div class="wrp">
+		<div class="block-title">Рекламные предложения</div>
+		<div class="block-3_bl">
+			<div class="block-3_bl_card">
+				<div class="block-3_bl_card_txt">1 баннер на сайте MANGA в течение месяца</div>
+				<div class="block-3_bl_card_pos">
+					<div class="block-3_bl_card_price">5.000$</div>
+					<div class="block-3_bl_card_button">
+						<a id="intro_btn">Подать заявку</a>
+					</div>
+				</div>
+			</div>
+			<div class="block-3_bl_card">
+				<div class="block-3_bl_card_txt">Брендирование сайта MANGA (3 баннера) + ссылки на соц. сети проекта в бот на месяц</div>
+				<div class="block-3_bl_card_pos">
+					<div class="block-3_bl_card_price">15.000$</div>
+					<div class="block-3_bl_card_button">
+						<a id="intro_btn2">Подать заявку</a>
+					</div>
+				</div>
+			</div>
+			<div class="block-3_bl_card">
+				<div class="block-3_bl_card_txt">аудиореклама до 30 секунд между главами сериала
+					<a class="play-btn3">
+						<span class="play">
+							<button onclick="play2()" class="play-btn2">
+								<img src="img/play.svg">
+							</button>
+							<audio id="audioPlayer2">
+							    <source src="sound/m.mp3" type="audio/mp3">
+							</audio>
+						</span>
+						<span class="play-link">Слушать пример</span>
+					</a>
+				</div>
+				<div class="block-3_bl_card_pos">
+					<div class="block-3_bl_card_price">5.000$</div>
+					<div class="block-3_bl_card_button">
+						<a id="intro_btn3">Подать заявку</a>
+					</div>
+				</div>
+			</div>
+			<div class="block-3_bl_card">
+				<div class="block-3_bl_card_txt">Партнёр телеграм-канала на месяц</div>
+				<div class="block-3_bl_card_pos">
+					<div class="block-3_bl_card_price">10.000$</div>
+					<div class="block-3_bl_card_button">
+						<a id="intro_btn4">Подать заявку</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="block-35"></section>
+<section class="block-4">
+	<div class="wrp">
+		<div class="block-4_l">
+			<div class="block-title-red">О нас</div>
+			<div class="block-title">PRO BLOCKCHAIN MEDIA AGENCY</div>
+			<div class="block-4_l_txt">Многопрофильная компания, включающая в себя<br>как креативное, так и медиа агентство полного цикла</div>
+			<div class="block-4_l_bl">
+				<div class="block-4_l_bl_ico">
+					<img src="img/ico-1.svg">
+					<span>Обеспечиваем активное продвижение проектов в сфере блокчейна, крипто индустрии, а также классическом бизнесе по всему миру.</span>
+				</div>
+				<div class="block-4_l_bl_ico">
+					<img src="img/ico-2.svg">
+					<span>Оказываем саппорт работы проектов на уровне Министерства Украины, Парка Высоких технологий<br>Беларуси и России.</span>
+				</div>
+			</div>
+			<div class="block-4_l_desc">Разработка и планирование СТРАТЕГИЙ продвижения проектов, производство собственного контента любой сложности, включая анимацию с миллионами просмотров позволяет расширять круг целевой аудитории.</div>
+			<div class="block-4_l_lnk">
+				<a href="https://www.youtube.com/c/PROBLOCKCHAIN" target="_blank">
+					<span class="block-4_l_lnk_ico">
+						<img src="img/youtube.svg">
+					</span>
+					<span class="block-4_l_lnk_txt">YouTube</span>
+				</a>
+				<a href="https://www.youtube.com/channel/UCpf4lgYwAf6H0MfWTiyqVNw/featured" target="_blank">
+					<span class="block-4_l_lnk_ico">
+						<img src="img/youtube.svg">
+					</span>
+					<span class="block-4_l_lnk_txt">YouTube life</span>
+				</a>
+				<a href="https://ttttt.me/Pro_Blockchain" target="_blank">
+					<span class="block-4_l_lnk_ico">
+						<img src="img/telegram.svg">
+					</span>
+					<span class="block-4_l_lnk_txt">Telegram</span>
+				</a>
+				<a href="https://pro-blockchain.com/" target="_blank">
+					<span class="block-4_l_lnk_ico">
+						<img src="img/web.svg">
+					</span>
+					<span class="block-4_l_lnk_txt">Web-site</span>
+				</a>
+				<a href="https://twitter.com/PRO_BLOCKCHAIN" target="_blank">
+					<span class="block-4_l_lnk_ico">
+						<img src="img/twitter.svg">
+					</span>
+					<span class="block-4_l_lnk_txt">Twitter</span>
+				</a>
+				<a href="https://vk.com/problockchain" target="_blank">
+					<span class="block-4_l_lnk_ico">
+						<img src="img/vk.svg">
+					</span>
+					<span class="block-4_l_lnk_txt">VK</span>
+				</a>
+				<a href="https://www.facebook.com/ProBlockchainMedia/" target="_blank">
+					<span class="block-4_l_lnk_ico">
+						<img src="img/facebook.svg">
+					</span>
+					<span class="block-4_l_lnk_txt">Facebook</span>
+				</a>
+				<a href="https://music.yandex.ru/album/10084756" target="_blank">
+					<span class="block-4_l_lnk_ico">
+						<img src="img/yandex.svg">
+					</span>
+					<span class="block-4_l_lnk_txt">Яндекс</span>
+				</a>
+			</div>
+		</div>
+		<div class="block-4_r">
+			<div class="block-4_r_img">
+				<img src="img/logo.svg">
+			</div>
+			<div class="block-4_r_ttl">
+				<div>Ведущее</div>
+				<span>крипто медиа в мире</span>
+			</div>
+			<div class="block-4_r_lang">
+				<img src="img/lang.svg">
+			</div>
+			<div class="block-4_r_txt">
+				работаем на английском языке и имеем партнёров<span>по всему МИРУ</span>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="block-5">
+	<div class="wrp">
+		<div class="block-title">С нами работают</div>
+		<div class="block-5_bl">
+			<a href="https://www.binance.com/ru" target="_blank">
+				<img src="img/logo-1.svg">
+			</a>
+			<a href="https://www.huobi.com/ru-ru/" target="_blank">
+				<img src="img/logo-2.svg">
+			</a>
+			<a href="https://www.kucoin.com/" target="_blank">
+				<img src="img/logo-3.svg">
+			</a>
+			<a href="https://www.bybit.com/ru-RU/" target="_blank">
+				<img src="img/logo-4.svg">
+			</a>
+			<a href="https://moonbeam.network/" target="_blank">
+				<img src="img/logo-5.svg">
+			</a>
+			<a href="https://equilibrium.io/" target="_blank">
+				<img src="img/logo-6.svg">
+			</a>
+			<a href="https://www.blockchain.com/" target="_blank">
+				<img src="img/logo-7.svg">
+			</a>
+			<a href="https://www.tokensets.com/" target="_blank">
+				<img src="img/logo-8.svg">
+			</a>
+			<a href="https://linear.finance/" target="_blank">
+				<img src="img/logo-9.svg">
+			</a>
+			<a href="https://ftx.com/ru" target="_blank">
+				<img src="img/logo-10.svg">
+			</a>
+			<a href="https://www.bitdeer.com/ru" target="_blank">
+				<img src="img/logo-11.svg">
+			</a>
+			<a href="https://www.ledger.com/" target="_blank">
+				<img src="img/logo-12.svg">
+			</a>
+			<a href="https://phemex.com/ru" target="_blank">
+				<img src="img/logo-13.svg">
+			</a>
+			<a href="https://waves.tech/" target="_blank">
+				<img src="img/logo-14.svg">
+			</a>
+			<a href="https://www.manta.network/" target="_blank">
+				<img src="img/logo-15.svg">
+			</a>
+			<a href="https://celsius.network/" target="_blank">
+				<img src="img/logo-16.svg">
+			</a>
+			<a href="https://1inch.io/" target="_blank">
+				<img src="img/logo-17.svg">
+			</a>
+			<a href="https://www.bestchange.ru/" target="_blank">
+				<img src="img/logo-18.svg">
+			</a>
+			<a href="https://www.okx.com/ru" target="_blank">
+				<img src="img/logo-19.svg">
+			</a>
+			<a href="https://bandprotocol.com/" target="_blank">
+				<img src="img/logo-20.svg">
+			</a>
+		</div>
+	</div>
+</section>
+<section class="block-6">
+	<div class="wrp">
+		<div class="block-title">Контакты для связи</div>
+		<div class="block-6_bl">
+			<div class="block-6_bl_l">
+				<a href="https://t.me/ProMediaAdmin" target="_blank" class="block-6_bl_l_tg">
+					<img src="img/tg.svg">
+					<span>ProMediaAdmin</span>
+				</a>
+				<a href="mailto:gptvinccorp@gmail.com" class="block-6_bl_l_mail">gptvinccorp@gmail.com</a>
+			</div>
+			<div class="block-6_bl_r">
+				Вам могут писать наши менеджеры по рекламе, вы можете сделать запрос на почту <a href="mailto:gptvinccorp@gmail.com">gptvinccorp@gmail.com</a>, где вам подтвердят контактные данные действующих менеджеров.
+			</div>
+		</div>
+	</div>
+</section>
+<section id="main" class="pop-up">
+	<div class="pop-up_block">
+		<span id="pop_close" class="pop-up_block_close"></span>
+		<div class="pop-up_block_ttl">Стать партнёром</div>
+		<form action="mail.php" method="get" onsubmit="return validate()">
+			<input type="text" name="Name" minlength="3" placeholder="Ваше имя" required>
+			<input type="text" name="Email" minlength="4" placeholder="Email" required>
+			<input type="text" name="Telegram/WhatsApp" minlength="5" placeholder="Telegram/WhatsApp" required>
+			<button type="submit" id="send-form">Оставить заявку</button>
+		</form>
+		<div class="pop-up_block_info">Нажимая на кнопку, Вы даёте согласие на обработку персональных данных и соглашаетесь с <a href="https://pro-blockchain.com/privacy-policy" target="_blank">Политикой конфиденциальности</a></div>
+	</div>
+	<div class="pop-up_block block-result">
+		<span id="pop_close2" class="pop-up_block_close"></span>
+		<div class="pop-up_block_result">
+			<img src="img/ok.svg">
+			<div>Ваша заявка<br>отправлена</div>
+			<span>Наш специалист свяжется <br>с Вами в ближайшее рабочее время</span>
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="wrp">
+		<div class="foot_l">
+			<a href="/">
+				<img src="img/logo-white.svg">
+			</a>
+		</div>
+		<div class="foot_c">
+			<div>Copyright © 2022 All rights reserved.</div>
+			<a href="https://pro-blockchain.com/privacy-policy" target="_blank">Политика конфиденциальности</a>
+		</div>
+		<div class="foot_r">
+			<a href="https://t.me/Pro_Blockchain" target="_blank">
+				<img src="img/f-tg.svg">
+			</a>
+			<a href="https://www.youtube.com/c/PROBLOCKCHAIN" target="_blank">
+				<img src="img/f-yt.svg">
+			</a>
+			<a href="https://twitter.com/PRO_BLOCKCHAIN" target="_blank">
+				<img src="img/f-tw.svg">
+			</a>
+			<a href="https://bitbrain.me/" target="_blank">
+				<img src="img/f-b.svg">
+			</a>
+		</div>
+	</div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
