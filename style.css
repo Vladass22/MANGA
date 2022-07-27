@@ -42,8 +42,8 @@ font-style: normal;
 font-weight: 400;
 }
 @font-face {
-font-family: "arial";  
-src: url("fonts/Arial.TTF"); 
+font-family: "Arial";  
+src: url("fonts/arial.ttf"); 
 font-style: normal; 
 font-weight: 400;
 }
