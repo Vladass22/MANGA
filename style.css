@@ -73,6 +73,24 @@ header:before {
 }
 .head_left {
     z-index: 1;
+    display: flex;
+}
+.sv-toplogo {
+    background-color: #fff;
+    border-radius: 5px;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: #8F8F8F;
+    text-decoration: none;
+    padding: 17px 16px;
+    height: 27px;
+    margin-left: 20px;
+}
+.sv-toplogo span {
+    margin-right: 13px;
 }
 .head_right {
     display: flex;
@@ -964,7 +982,27 @@ footer .wrp {
     align-items: center;
 }
 .foot_l {
-    width: 33%;
+    width: 52%;
+}
+.foot_l a {
+    vertical-align: middle;
+    text-decoration: none;
+}
+.sv-downlogo {
+    display: inline-block;
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    font-size: 37.0806px;
+    line-height: 37px;
+    letter-spacing: -2px;
+    margin-left: 58px;
+}
+.sv-downlogo div {
+    display: inline-block;
+    margin-right: 15px;
+}
+.sv-downlogo div span:last-child {
+    color: #717171;
 }
 .foot_c {
     font-family: 'Inter';
@@ -973,7 +1011,7 @@ footer .wrp {
     line-height: 140%;
     text-align: center;
     color: #5F5F5F;
-    width: 33%;
+    width: 23%;
 }
 .foot_c a {
     color: #5F5F5F;
@@ -984,7 +1022,7 @@ footer .wrp {
     text-decoration: none;
 }
 .foot_r {
-    width: 33%;
+    width: 25%;
     text-align: right;
 }
 .foot_r a {
@@ -1037,6 +1075,16 @@ footer .wrp {
     }
 }
 @media screen and (max-width: 1000px) {
+    .head {
+        flex-direction: column;
+    }
+    .head_right_menu a {
+        margin-left: 0;
+        margin-right: 16px;
+    }
+    .head_right {
+        margin-top: 15px;
+    }
     .block-1_down .wrp {
         flex-direction: column;
     }
@@ -1068,8 +1116,36 @@ footer .wrp {
     .block-4_r {
         margin: 50px auto 0 auto;
     }
+    .foot_l {
+        width: 46%;
+    }
+    .foot_c {
+        width: 23%;
+    }
+    .foot_r {
+        width: 29%;
+    }
 }
 @media screen and (max-width: 770px) {
+    .sv-toplogo {
+        font-size: 13px;
+        line-height: 17px;
+        padding: 10px;
+        height: 20px;
+    }
+    .sv-toplogo img {
+        width: 10px!important;
+    }
+    .sv-toplogo span {
+        margin-right: 7px;
+    }
+    .head_right {
+        margin-top: 0;
+    }
+    .head_right_menu a {
+        margin-left: 0;
+        margin-right: 0;
+    }
     .head_left a img {
         width: 94px;
     }
@@ -1494,6 +1570,14 @@ footer .wrp {
     }
     .block-4_l_lnk a {
         margin: 0 0 20px 0;
+    }
+    .foot_l {
+        display: flex;
+        flex-direction: column;
+    }
+    .sv-downlogo {
+        margin-left: 0;
+        margin-top: 30px;
     }
 }
 @media screen and (max-width: 350px) {
