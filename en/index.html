@@ -9,7 +9,7 @@
     <link rel="icon" href="../favicon/favicon.ico">
 	<link rel="icon" type="image/png" href="../favicon/favicon.png">
 	
-	<link rel="stylesheet" href="../style.css?v=2022072702">
+	<link rel="stylesheet" href="../style.css?v=2022072801">
 </head>
 <body>
 <section class="block-1">
@@ -147,7 +147,7 @@
 		<div class="block-title">Promotional offers</div>
 		<div class="block-3_bl">
 			<div class="block-3_bl_card">
-				<div class="block-3_bl_card_txt">1 banner on the MANGA website during the month</div>
+				<div id="bl3-ttl-1" class="block-3_bl_card_txt">1 banner on the MANGA website during the month</div>
 				<div class="block-3_bl_card_pos">
 					<div class="block-3_bl_card_price">5.000$</div>
 					<div class="block-3_bl_card_button">
@@ -156,7 +156,7 @@
 				</div>
 			</div>
 			<div class="block-3_bl_card">
-				<div class="block-3_bl_card_txt">Branding of the MANGA website (3 banners) + links to social networks project networks into a bot for a month</div>
+				<div id="bl3-ttl-2" class="block-3_bl_card_txt">Branding of the MANGA website (3 banners) + links to social networks project networks into a bot for a month</div>
 				<div class="block-3_bl_card_pos">
 					<div class="block-3_bl_card_price">15.000$</div>
 					<div class="block-3_bl_card_button">
@@ -165,7 +165,7 @@
 				</div>
 			</div>
 			<div class="block-3_bl_card">
-				<div class="block-3_bl_card_txt">audio ads up to 30 seconds between chapters of the series
+				<div id="bl3-ttl-3" class="block-3_bl_card_txt">audio ads up to 30 seconds between chapters of the series
 					<a class="play-btn3">
 						<span class="play">
 							<button onclick="play2()" class="play-btn2">
@@ -186,7 +186,7 @@
 				</div>
 			</div>
 			<div class="block-3_bl_card">
-				<div class="block-3_bl_card_txt">Telegram channel partner for a month</div>
+				<div id="bl3-ttl-4" class="block-3_bl_card_txt">Telegram channel partner for a month</div>
 				<div class="block-3_bl_card_pos">
 					<div class="block-3_bl_card_price">10.000$</div>
 					<div class="block-3_bl_card_button">
@@ -372,6 +372,7 @@
 		<span id="pop_close" class="pop-up_block_close"></span>
 		<div class="pop-up_block_ttl">Become a partner</div>
 		<form action="../mail.php" method="get" onsubmit="return validate()">
+			<input type="text" name="Theme" value="" style="display:none;" id="find">
 			<input type="text" name="Name" minlength="3" placeholder="Your name" required>
 			<input type="text" name="Email" minlength="4" placeholder="Email" required>
 			<input type="text" name="Telegram/WhatsApp" minlength="5" placeholder="Telegram/WhatsApp" required>
@@ -425,6 +426,6 @@
 		</div>
 	</div>
 </footer>
-<script src="../main.js"></script>
+<script src="../main.js?v=2022072801"></script>
 </body>
 </html>
